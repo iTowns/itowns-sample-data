@@ -57,7 +57,7 @@
   },
   {
     "cam_id_pos": "301",
-    "mask": "data/images/mask301.jpg",
+    "mask": "images/mask301.jpg",
     "rotation": [
       0.999983,
       0.0057386,
@@ -170,7 +170,7 @@
   },
   {
     "cam_id_pos": "303",
-    "mask": "data/images/mask303.jpg",
+    "mask": "images/mask303.jpg",
     "rotation": [
       -0.999997,
       -0.000499298,
