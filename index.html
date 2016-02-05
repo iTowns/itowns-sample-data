@@ -16,93 +16,93 @@
             }
 
             .row {
-            display: table-row;
+                display: table-row;
             }
 
             .row .labelswitch,
             .row .switch {
-            display: table-cell;
-            vertical-align: middle;
-            padding: 2px;
+                display: table-cell;
+                vertical-align: middle;
+                padding: 2px;
             }
 
             *,
             *:before,
             *:after {
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
             }
 
             .cmn-toggle {
-            position: absolute;
-            margin-left: -9999px;
-            visibility: hidden;
+                position: absolute;
+                margin-left: -9999px;
+                visibility: hidden;
             }
             .cmn-toggle + label {
-            display: block;
-            position: relative;
-            cursor: pointer;
-            outline: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
+                display: block;
+                position: relative;
+                cursor: pointer;
+                outline: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
             }
 
             input.cmn-toggle-round + label {
-            padding: 2px;
-            width: 40px;
-            height: 20px;
-            background-color: #dddddd;
-            -webkit-border-radius: 20px;
-            -moz-border-radius: 20px;
-            -ms-border-radius: 20px;
-            -o-border-radius: 20px;
-            border-radius: 20px;
+                padding: 2px;
+                width: 40px;
+                height: 20px;
+                background-color: #dddddd;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+                border-radius: 20px;
             }
             input.cmn-toggle-round + label:before, input.cmn-toggle-round + label:after {
-            display: block;
-            position: absolute;
-            top: 1px;
-            left: 1px;
-            bottom: 1px;
-            content: "";
+                display: block;
+                position: absolute;
+                top: 1px;
+                left: 1px;
+                bottom: 1px;
+                content: "";
             }
             input.cmn-toggle-round + label:before {
-            right: 1px;
-            background-color: #f1f1f1;
-            -webkit-border-radius: 20px;
-            -moz-border-radius: 20px;
-            -ms-border-radius: 20px;
-            -o-border-radius: 20px;
-            border-radius: 20px;
-            -webkit-transition: background 0.4s;
-            -moz-transition: background 0.4s;
-            -o-transition: background 0.4s;
-            transition: background 0.4s;
+                right: 1px;
+                background-color: #f1f1f1;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+                border-radius: 20px;
+                -webkit-transition: background 0.4s;
+                -moz-transition: background 0.4s;
+                -o-transition: background 0.4s;
+                transition: background 0.4s;
             }
             input.cmn-toggle-round + label:after {
-            width: 18px;
-            background-color: #fff;
-            -webkit-border-radius: 100%;
-            -moz-border-radius: 100%;
-            -ms-border-radius: 100%;
-            -o-border-radius: 100%;
-            border-radius: 100%;
-            -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            -webkit-transition: margin 0.4s;
-            -moz-transition: margin 0.4s;
-            -o-transition: margin 0.4s;
-            transition: margin 0.4s;
+                width: 18px;
+                background-color: #fff;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+                border-radius: 100%;
+                -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                -webkit-transition: margin 0.4s;
+                -moz-transition: margin 0.4s;
+                -o-transition: margin 0.4s;
+                transition: margin 0.4s;
             }
             input.cmn-toggle-round:checked + label:before {
-            background-color: #8ce196;
+                background-color: #8ce196;
             }
             input.cmn-toggle-round:checked + label:after {
-            margin-left: 20px;
+                margin-left: 20px;
             }
 
         </style>
@@ -154,30 +154,30 @@
             }
          }
 
-       initialize();
+        initialize();
 
-function laserPointMeasureEnable(e) {
-    //loading laser points!
-    if (!$("#checkboxLaserCloud").prop("checked")) {
-        itowns.addLayer("pointCloud",itowns.dataURL);
-        //LaserCloud.setVisibility(true);
-    } else {
-        itowns.removeLayer("pointCloud");
-    }
-    /*
-    LaserCloud.btnSwitchPoint = !LaserCloud.btnSwitchPoint;
+        function laserPointMeasureEnable(e) {
+            //loading laser points!
+            if (!$("#checkboxLaserCloud").prop("checked")) {
+                itowns.addLayer("pointCloud",itowns.dataURL);
+                //LaserCloud.setVisibility(true);
+            } else {
+                itowns.removeLayer("pointCloud");
+            }
+            /*
+            LaserCloud.btnSwitchPoint = !LaserCloud.btnSwitchPoint;
 
-    if (LaserCloud.btnSwitchLine || LaserCloud.btnSwitchVolume) {
-        LaserCloud.btnSwitchLine = false;
-        LaserCloud.btnSwitchVolume = false;
-    }
-    */
-}
+            if (LaserCloud.btnSwitchLine || LaserCloud.btnSwitchVolume) {
+                LaserCloud.btnSwitchLine = false;
+                LaserCloud.btnSwitchVolume = false;
+            }
+            */
+        }
 
 
-function streetViewEnable(e) {
+        function streetViewEnable(e) {
 
-}
+        }
 
        </script>
 
