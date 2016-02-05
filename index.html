@@ -120,26 +120,15 @@
           function initialize() {
             if (typeof allInitialized != 'undefined' && allInitialized) {   // Check that everything is loaded
 
-
                  itowns = new API({
-                        // Optional (Default values in Config.js) 
                         dataURL: {
-                        /*
-                            urlMetaDataProviderPos  : "../itowns-sample-data/panoramicsMetaData.json",
-                            urlImageFile            : "../itowns-sample-data/images/",
-                            urlMetaProviderSensor   : "../itowns-sample-data/cameraCalibration.json",
-                            urlBuildingFootprint    : "../itowns-sample-data/buildingFootprint.json",
-                            urlDTM                  : "../itowns-sample-data/dtm.json",
-                            urlPointCloud           : "../itowns-sample-data/pointclouds/",
-                            url3DBuilding           : "../itowns-sample-data/Buildings3D/"
-                        */
-                            urlMetaDataProviderPos  : "../itowns-sample-data/panoramicsMetaDataV2.json",
-                            urlImageFile            : "../itowns-sample-data-small/images/",
-                            urlMetaProviderSensor   : "../itowns-sample-data/cameraCalibrationV2.json",
-                            urlBuildingFootprint    : "../itowns-sample-data/buildingFootprint.json",
-                            urlDTM                  : "../itowns-sample-data/dtm.json",
-                            urlPointCloud           : "../itowns-sample-data/pointclouds/",
-                            url3DBuilding           : "../itowns-sample-data/Buildings3D/"
+                            urlMetaDataProviderPos  : "panoramicsMetaDataV2.json",
+                            urlImageFile            : "images/",
+                            urlMetaProviderSensor   : "cameraCalibrationV2.json",
+                            urlBuildingFootprint    : "buildingFootprint.json",
+                            urlDTM                  : "dtm.json",
+                            urlPointCloud           : "pointclouds/",
+                            url3DBuilding           : "Buildings3D/"
                         },
 
                         usingLaserCloud  : false,
