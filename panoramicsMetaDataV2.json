@@ -1,6 +1,6 @@
 [
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000482.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000482.jpg",
     "easting": 651187.76,
     "northing": 6861379.05,
     "altitude": 39.39,
@@ -11,7 +11,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000483.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000483.jpg",
     "easting": 651187.63,
     "northing": 6861376.21,
     "altitude": 39.43,
@@ -22,7 +22,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000484.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000484.jpg",
     "easting": 651187.18,
     "northing": 6861372.56,
     "altitude": 39.49,
@@ -33,7 +33,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000485.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000485.jpg",
     "easting": 651186.76,
     "northing": 6861369.74,
     "altitude": 39.55,
@@ -44,7 +44,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000486.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000486.jpg",
     "easting": 651186.22,
     "northing": 6861366.08,
     "altitude": 39.61,
@@ -55,7 +55,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000487.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000487.jpg",
     "easting": 651185.79,
     "northing": 6861362.99,
     "altitude": 39.67,
@@ -66,7 +66,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000488.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000488.jpg",
     "easting": 651185.32,
     "northing": 6861359.63,
     "altitude": 39.72,
@@ -77,7 +77,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000489.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000489.jpg",
     "easting": 651184.96,
     "northing": 6861357.18,
     "altitude": 39.73,
@@ -88,7 +88,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000490.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000490.jpg",
     "easting": 651184.41,
     "northing": 6861353.5,
     "altitude": 39.69,
@@ -99,7 +99,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000491.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000491.jpg",
     "easting": 651183.96,
     "northing": 6861350.52,
     "altitude": 39.67,
@@ -110,7 +110,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000492.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000492.jpg",
     "easting": 651183.33,
     "northing": 6861346.2,
     "altitude": 39.63,
@@ -121,7 +121,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000493.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000493.jpg",
     "easting": 651182.91,
     "northing": 6861343.03,
     "altitude": 39.6,
@@ -132,7 +132,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000494.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000494.jpg",
     "easting": 651182.61,
     "northing": 6861339.6,
     "altitude": 39.57,
@@ -143,7 +143,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000495.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000495.jpg",
     "easting": 651182.5,
     "northing": 6861335.95,
     "altitude": 39.54,
@@ -154,7 +154,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000496.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000496.jpg",
     "easting": 651182.44,
     "northing": 6861332.34,
     "altitude": 39.52,
@@ -165,7 +165,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000497.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000497.jpg",
     "easting": 651181.5,
     "northing": 6861328.85,
     "altitude": 39.49,
@@ -176,7 +176,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000498.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000498.jpg",
     "easting": 651178.35,
     "northing": 6861327.41,
     "altitude": 39.46,
@@ -187,7 +187,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000499.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000499.jpg",
     "easting": 651175.07,
     "northing": 6861327.25,
     "altitude": 39.45,
@@ -198,7 +198,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000500.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000500.jpg",
     "easting": 651171.47,
     "northing": 6861327.4,
     "altitude": 39.4,
@@ -209,7 +209,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000501.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000501.jpg",
     "easting": 651167.93,
     "northing": 6861327.61,
     "altitude": 39.37,
@@ -220,7 +220,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000502.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000502.jpg",
     "easting": 651164.54,
     "northing": 6861327.86,
     "altitude": 39.33,
@@ -231,7 +231,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000503.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000503.jpg",
     "easting": 651161.16,
     "northing": 6861328.14,
     "altitude": 39.29,
@@ -242,7 +242,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000504.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000504.jpg",
     "easting": 651157.45,
     "northing": 6861328.43,
     "altitude": 39.24,
@@ -253,7 +253,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000505.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000505.jpg",
     "easting": 651154.61,
     "northing": 6861328.62,
     "altitude": 39.21,
@@ -264,7 +264,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000506.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000506.jpg",
     "easting": 651151.24,
     "northing": 6861328.85,
     "altitude": 39.17,
@@ -275,7 +275,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000507.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000507.jpg",
     "easting": 651147.56,
     "northing": 6861329.07,
     "altitude": 39.13,
@@ -286,7 +286,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000508.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000508.jpg",
     "easting": 651144.28,
     "northing": 6861329.27,
     "altitude": 39.09,
@@ -297,7 +297,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000721.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000721.jpg",
     "easting": 651187.85,
     "northing": 6861378.51,
     "altitude": 39.39,
@@ -308,7 +308,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000722.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000722.jpg",
     "easting": 651187.52,
     "northing": 6861374.68,
     "altitude": 39.45,
@@ -319,7 +319,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000723.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000723.jpg",
     "easting": 651187.04,
     "northing": 6861370.74,
     "altitude": 39.52,
@@ -330,7 +330,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000724.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000724.jpg",
     "easting": 651186.59,
     "northing": 6861367.44,
     "altitude": 39.57,
@@ -341,7 +341,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000725.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000725.jpg",
     "easting": 651186.0,
     "northing": 6861363.47,
     "altitude": 39.64,
@@ -352,7 +352,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000726.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000726.jpg",
     "easting": 651185.55,
     "northing": 6861360.23,
     "altitude": 39.7,
@@ -363,7 +363,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000727.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000727.jpg",
     "easting": 651185.17,
     "northing": 6861357.25,
     "altitude": 39.72,
@@ -374,7 +374,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000728.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000728.jpg",
     "easting": 651184.77,
     "northing": 6861353.97,
     "altitude": 39.68,
@@ -385,7 +385,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000729.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000729.jpg",
     "easting": 651184.17,
     "northing": 6861350.01,
     "altitude": 39.65,
@@ -396,7 +396,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000730.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000730.jpg",
     "easting": 651183.62,
     "northing": 6861346.44,
     "altitude": 39.62,
@@ -407,7 +407,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000731.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000731.jpg",
     "easting": 651183.18,
     "northing": 6861343.16,
     "altitude": 39.58,
@@ -418,7 +418,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000732.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000732.jpg",
     "easting": 651182.72,
     "northing": 6861339.17,
     "altitude": 39.55,
@@ -429,7 +429,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000733.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000733.jpg",
     "easting": 651182.46,
     "northing": 6861335.82,
     "altitude": 39.53,
@@ -440,7 +440,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000734.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000734.jpg",
     "easting": 651182.44,
     "northing": 6861335.4,
     "altitude": 39.53,
@@ -451,7 +451,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000735.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000735.jpg",
     "easting": 651182.32,
     "northing": 6861332.48,
     "altitude": 39.52,
@@ -462,7 +462,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000736.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000736.jpg",
     "easting": 651182.49,
     "northing": 6861328.74,
     "altitude": 39.49,
@@ -473,7 +473,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000737.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000737.jpg",
     "easting": 651182.16,
     "northing": 6861324.97,
     "altitude": 39.49,
@@ -484,7 +484,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000738.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000738.jpg",
     "easting": 651181.88,
     "northing": 6861321.45,
     "altitude": 39.55,
@@ -495,7 +495,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000739.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000739.jpg",
     "easting": 651181.97,
     "northing": 6861317.66,
     "altitude": 39.63,
@@ -506,7 +506,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000740.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000740.jpg",
     "easting": 651182.12,
     "northing": 6861314.41,
     "altitude": 39.68,
@@ -517,7 +517,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000741.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000741.jpg",
     "easting": 651182.24,
     "northing": 6861310.92,
     "altitude": 39.72,
@@ -528,7 +528,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000742.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000742.jpg",
     "easting": 651182.27,
     "northing": 6861310.14,
     "altitude": 39.74,
@@ -539,7 +539,7 @@
     "id_platform": "Stereopolis"
   },
   {
-    "url_format": "data/images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000743.jpg",
+    "url_format": "images/140616/Paris-140616_0740-{cam_id_pos}-00001_0000743.jpg",
     "easting": 651182.33,
     "northing": 6861307.18,
     "altitude": 39.81,
