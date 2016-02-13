@@ -123,7 +123,9 @@
                  itowns = new API({
                         dataURL: {
                             urlMetaDataProviderPos  : "panoramicsMetaDataV2.json",
-                            urlImageFile            : "images/",
+                            urlImageFile            : "../itowns-sample-data-small/images/140616/Paris-140616_0740-{cam}-00001_{pano}.jpg",
+//                            urlImageFile            : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam}-00001_{pano}.jpg",
+//                            urlImageFile            : "http://www.itowns.fr/cgi-bin/iipsrv.fcgi?FIF=/iipimagesV2/140616/Paris-140616_0740-{cam}-00001_{pano}.jp2&WID=512&QLT=80&CVT=JPEG",
                             urlMetaProviderSensor   : "cameraCalibrationV2.json",
                             urlBuildingFootprint    : "buildingFootprint.json",
                             urlDTM                  : "dtm.json",
@@ -134,7 +136,8 @@
                         usingLaserCloud  : false,
                         usingStreetView  : false,
                         usingBati3D      : false,
-                        positionInit     : {x:651182.91,y:39.6,z:6861343.03}
+                        positionInit     : {x:651182.91,y:39.6,z:6861343.03},
+                        laser: { offset : {x:650000,y:0,z:6860000} }
                  });
             }
             else {
@@ -148,7 +151,7 @@
         function laserPointMeasureEnable(e) {
             //loading laser points!
             if (!$("#checkboxLaserCloud").prop("checked")) {
-                itowns.addLayer("pointCloud",itowns.dataURL);
+                itowns.addLayer("pointCloud",itowns.dataURL,itowns.laser);
                 //LaserCloud.setVisibility(true);
             } else {
                 itowns.removeLayer("pointCloud");
