@@ -1,1 +1,155 @@
-[{"cam_id":13,"cam_id_pos":12,"cam_name":"Pike_64","cam_calibration_date":"2008-03-04","cam_serial_number":268927064,"cam_width":1920,"cam_height":1080,"cam_cppa":956.866,"cam_lppa":544.682,"cam_focal":1398.27,"cam_disto_cpps":952.15,"cam_disto_lpps":545.721,"cam_disto_r3":-4.56769e-8,"cam_disto_r5":2.68315e-14,"cam_disto_r7":1.82166e-21,"cam_pixel_size":7.4e-6,"cam_orientation":3,"l_s_c_ste_id":1,"l_s_c_cam_id":13,"l_s_c_las_id":0,"l_s_c_x":1.41298,"l_s_c_y":0.83044,"l_s_c_z":0.14798,"l_s_c_l1_x":0.968579,"l_s_c_l1_y":0.0198464,"l_s_c_l1_z":0.247914,"l_s_c_l2_x":0.0182161,"l_s_c_l2_y":-0.999795,"l_s_c_l2_z":0.00886795,"l_s_c_l3_x":0.248039,"l_s_c_l3_y":-0.00407329,"l_s_c_l3_z":-0.968741},{"cam_id":14,"cam_id_pos":34,"cam_name":"Pike_68","cam_calibration_date":"2008-03-04","cam_serial_number":268927068,"cam_width":1920,"cam_height":1080,"cam_cppa":951.545,"cam_lppa":544.242,"cam_focal":1397.3,"cam_disto_cpps":952.132,"cam_disto_lpps":540.977,"cam_disto_r3":-4.78165e-8,"cam_disto_r5":3.24409e-14,"cam_disto_r7":-2.05137e-21,"cam_pixel_size":7.4e-6,"cam_orientation":1,"l_s_c_ste_id":1,"l_s_c_cam_id":14,"l_s_c_las_id":0,"l_s_c_x":-0.14487,"l_s_c_y":0.19553,"l_s_c_z":-0.64224,"l_s_c_l1_x":-0.00221,"l_s_c_l1_y":0.999994,"l_s_c_l1_z":-0.0027844,"l_s_c_l2_x":0.986409,"l_s_c_l2_y":0.0026376,"l_s_c_l2_z":0.164317,"l_s_c_l3_x":0.164324,"l_s_c_l3_y":-0.0023834,"l_s_c_l3_z":-0.986408},{"cam_id":15,"cam_id_pos":32,"cam_name":"Pike_70","cam_calibration_date":"2008-02-28","cam_serial_number":268927070,"cam_width":1920,"cam_height":1080,"cam_cppa":964.018,"cam_lppa":534.547,"cam_focal":1397.48,"cam_disto_cpps":966.399,"cam_disto_lpps":535.821,"cam_disto_r3":-4.70431e-8,"cam_disto_r5":3.25775e-14,"cam_disto_r7":-2.24831e-21,"cam_pixel_size":7.4e-6,"cam_orientation":1,"l_s_c_ste_id":1,"l_s_c_cam_id":15,"l_s_c_las_id":0,"l_s_c_x":-0.14237,"l_s_c_y":-0.17494,"l_s_c_z":-0.8143,"l_s_c_l1_x":-0.0004677,"l_s_c_l1_y":-0.99999,"l_s_c_l1_z":-0.003524,"l_s_c_l2_x":-0.56702,"l_s_c_l2_y":-0.0026376,"l_s_c_l2_z":0.82371,"l_s_c_l3_x":-0.82371,"l_s_c_l3_y":0.0023834,"l_s_c_l3_z":-0.56701},{"cam_id":16,"cam_id_pos":62,"cam_name":"Pike_66","cam_calibration_date":"2008-02-27","cam_serial_number":268927066,"cam_width":1920,"cam_height":1080,"cam_cppa":955.954,"cam_lppa":549.175,"cam_focal":1399.13,"cam_disto_cpps":951.097,"cam_disto_lpps":546.986,"cam_disto_r3":-5.53612e-8,"cam_disto_r5":4.67413e-14,"cam_disto_r7":-9.88158e-21,"cam_pixel_size":7.4e-6,"cam_orientation":3,"l_s_c_ste_id":1,"l_s_c_cam_id":16,"l_s_c_las_id":0,"l_s_c_x":-1.84386,"l_s_c_y":-0.72216,"l_s_c_z":0.12968,"l_s_c_l1_x":-0.9667,"l_s_c_l1_y":0.0133715,"l_s_c_l1_z":-0.255562,"l_s_c_l2_x":0.0143388,"l_s_c_l2_y":0.999895,"l_s_c_l2_z":-0.00192205,"l_s_c_l3_x":0.25551,"l_s_c_l3_y":-0.00552243,"l_s_c_l3_z":-0.966791},{"cam_id":17,"cam_id_pos":21,"cam_name":"Pike_36","cam_calibration_date":"2008-03-04","cam_serial_number":268927036,"cam_width":1920,"cam_height":1080,"cam_cppa":962.48,"cam_lppa":540.605,"cam_focal":1398.22,"cam_disto_cpps":961.917,"cam_disto_lpps":539.914,"cam_disto_r3":-4.66233e-8,"cam_disto_r5":3.05252e-14,"cam_disto_r7":-8.60893e-22,"cam_pixel_size":7.4e-6,"cam_orientation":0,"l_s_c_ste_id":1,"l_s_c_cam_id":17,"l_s_c_las_id":0,"l_s_c_x":-0.06035,"l_s_c_y":-0.09578,"l_s_c_z":-0.71656,"l_s_c_l1_x":0.61774,"l_s_c_l1_y":-0.78638,"l_s_c_l1_z":-0.0023814,"l_s_c_l2_x":-0.78638,"l_s_c_l2_y":-0.61774,"l_s_c_l2_z":-0.00074224,"l_s_c_l3_x":-0.00088732,"l_s_c_l3_y":0.0023313,"l_s_c_l3_z":-1},{"cam_id":18,"cam_id_pos":23,"cam_name":"Pike_35","cam_calibration_date":"2008-03-04","cam_serial_number":268927035,"cam_width":1920,"cam_height":1080,"cam_cppa":972.162,"cam_lppa":537.915,"cam_focal":1396.87,"cam_disto_cpps":969.983,"cam_disto_lpps":543.883,"cam_disto_r3":-4.78045e-8,"cam_disto_r5":3.47483e-14,"cam_disto_r7":-4.07494e-21,"cam_pixel_size":7.4e-6,"cam_orientation":0,"l_s_c_ste_id":1,"l_s_c_cam_id":18,"l_s_c_las_id":0,"l_s_c_x":-0.06025,"l_s_c_y":0.09561,"l_s_c_z":-0.7166,"l_s_c_l1_x":0.61358,"l_s_c_l1_y":0.78963,"l_s_c_l1_z":-0.0023814,"l_s_c_l2_x":0.78963,"l_s_c_l2_y":-0.61358,"l_s_c_l2_z":-0.00074224,"l_s_c_l3_x":-0.0020474,"l_s_c_l3_y":-0.001425,"l_s_c_l3_z":-1},{"cam_id":19,"cam_id_pos":41,"cam_name":"Pike_33","cam_calibration_date":"2008-03-04","cam_serial_number":268927033,"cam_width":1920,"cam_height":1080,"cam_cppa":954.987,"cam_lppa":533.127,"cam_focal":1397.63,"cam_disto_cpps":955.913,"cam_disto_lpps":541.296,"cam_disto_r3":-4.95249e-8,"cam_disto_r5":3.54102e-14,"cam_disto_r7":-3.69534e-21,"cam_pixel_size":7.4e-6,"cam_orientation":0,"l_s_c_ste_id":1,"l_s_c_cam_id":19,"l_s_c_las_id":0,"l_s_c_x":-0.22704,"l_s_c_y":-0.09503,"l_s_c_z":-0.71674,"l_s_c_l1_x":-0.61358,"l_s_c_l1_y":-0.78963,"l_s_c_l1_z":-0.0023814,"l_s_c_l2_x":-0.78963,"l_s_c_l2_y":0.61358,"l_s_c_l2_z":-0.00074224,"l_s_c_l3_x":0.0020474,"l_s_c_l3_y":0.001425,"l_s_c_l3_z":-1},{"cam_id":20,"cam_id_pos":52,"cam_name":"Pike_67","cam_calibration_date":"2008-03-04","cam_serial_number":268927067,"cam_width":1920,"cam_height":1080,"cam_cppa":959.5,"cam_lppa":539.697,"cam_focal":1397.94,"cam_disto_cpps":959.238,"cam_disto_lpps":536.65,"cam_disto_r3":-4.7798e-8,"cam_disto_r5":3.25969e-14,"cam_disto_r7":-2.72132e-21,"cam_pixel_size":7.4e-6,"cam_orientation":3,"l_s_c_ste_id":1,"l_s_c_cam_id":20,"l_s_c_las_id":0,"l_s_c_x":-0.6239,"l_s_c_y":-0.00035,"l_s_c_z":-0.34649,"l_s_c_l1_x":-0.80749,"l_s_c_l1_y":-0.00213718,"l_s_c_l1_z":0.589877,"l_s_c_l2_x":-0.0125162,"l_s_c_l2_y":0.99983,"l_s_c_l2_z":-0.0135111,"l_s_c_l3_x":-0.589748,"l_s_c_l3_y":-0.0182931,"l_s_c_l3_z":-0.80738},{"cam_id":21,"cam_id_pos":22,"cam_name":"Pike_37","cam_calibration_date":"2008-03-04","cam_serial_number":268927037,"cam_width":1920,"cam_height":1080,"cam_cppa":960.86,"cam_lppa":536.884,"cam_focal":1396.44,"cam_disto_cpps":954.876,"cam_disto_lpps":537.357,"cam_disto_r3":-5.81159e-8,"cam_disto_r5":5.11955e-14,"cam_disto_r7":-1.26729e-20,"cam_pixel_size":7.4e-6,"cam_orientation":3,"l_s_c_ste_id":1,"l_s_c_cam_id":21,"l_s_c_las_id":0,"l_s_c_x":-0.01661,"l_s_c_y":-0.00016,"l_s_c_z":-0.71727,"l_s_c_l1_x":0.99999,"l_s_c_l1_y":0.0026393,"l_s_c_l1_z":-0.0023814,"l_s_c_l2_x":0.0026376,"l_s_c_l2_y":-1,"l_s_c_l2_z":-0.00074224,"l_s_c_l3_x":-0.0023834,"l_s_c_l3_y":0.00073609,"l_s_c_l3_z":-1},{"cam_id":22,"cam_id_pos":11,"cam_name":"Pike_71","cam_calibration_date":"2008-03-04","cam_serial_number":268927071,"cam_width":1920,"cam_height":1080,"cam_cppa":965.995,"cam_lppa":539.776,"cam_focal":1396.94,"cam_disto_cpps":966.105,"cam_disto_lpps":540.779,"cam_disto_r3":-4.84808e-8,"cam_disto_r5":3.41259e-14,"cam_disto_r7":-2.85742e-21,"cam_pixel_size":7.4e-6,"cam_orientation":3,"l_s_c_ste_id":1,"l_s_c_cam_id":22,"l_s_c_las_id":0,"l_s_c_x":1.41372,"l_s_c_y":-0.82523,"l_s_c_z":0.14557,"l_s_c_l1_x":0.971843,"l_s_c_l1_y":-0.0463899,"l_s_c_l1_z":0.231017,"l_s_c_l2_x":-0.0477687,"l_s_c_l2_y":-0.998858,"l_s_c_l2_z":0.000375892,"l_s_c_l3_x":0.230735,"l_s_c_l3_y":-0.0114007,"l_s_c_l3_z":-0.97295},{"cam_id":23,"cam_id_pos":42,"cam_name":"Pike_38","cam_calibration_date":"2008-03-04","cam_serial_number":268927038,"cam_width":1920,"cam_height":1080,"cam_cppa":966.542,"cam_lppa":546.762,"cam_focal":1396.41,"cam_disto_cpps":968.288,"cam_disto_lpps":536.256,"cam_disto_r3":-4.71259e-8,"cam_disto_r5":2.82229e-14,"cam_disto_r7":1.22913e-21,"cam_pixel_size":7.4e-6,"cam_orientation":3,"l_s_c_ste_id":1,"l_s_c_cam_id":23,"l_s_c_las_id":0,"l_s_c_x":-0.27151,"l_s_c_y":0.00018,"l_s_c_z":-0.71706,"l_s_c_l1_x":-0.99999,"l_s_c_l1_y":-0.0026393,"l_s_c_l1_z":-0.0023814,"l_s_c_l2_x":-0.0026376,"l_s_c_l2_y":1,"l_s_c_l2_z":-0.00074224,"l_s_c_l3_x":0.0023834,"l_s_c_l3_y":-0.00073609,"l_s_c_l3_z":-1},{"cam_id":24,"cam_id_pos":51,"cam_name":"Pike_65","cam_calibration_date":"2008-03-04","cam_serial_number":268927065,"cam_width":1920,"cam_height":1080,"cam_cppa":957.534,"cam_lppa":551.55,"cam_focal":1396.99,"cam_disto_cpps":953.997,"cam_disto_lpps":548.051,"cam_disto_r3":-4.76328e-8,"cam_disto_r5":3.35601e-14,"cam_disto_r7":-3.54568e-21,"cam_pixel_size":7.4e-6,"cam_orientation":3,"l_s_c_ste_id":1,"l_s_c_cam_id":24,"l_s_c_las_id":0,"l_s_c_x":0.23616,"l_s_c_y":0.00455,"l_s_c_z":-0.37253,"l_s_c_l1_x":0.714252,"l_s_c_l1_y":0.0309141,"l_s_c_l1_z":-0.699206,"l_s_c_l2_x":0.0288273,"l_s_c_l2_y":-0.999476,"l_s_c_l2_z":-0.0147423,"l_s_c_l3_x":-0.699295,"l_s_c_l3_y":-0.0096265,"l_s_c_l3_z":-0.714768},{"cam_id":25,"cam_id_pos":43,"cam_name":"Pike_34","cam_calibration_date":"2008-03-04","cam_serial_number":268927034,"cam_width":1920,"cam_height":1080,"cam_cppa":962.435,"cam_lppa":540.599,"cam_focal":1400.42,"cam_disto_cpps":961.976,"cam_disto_lpps":542.762,"cam_disto_r3":-4.62812e-8,"cam_disto_r5":3.07815e-14,"cam_disto_r7":-1.27e-21,"cam_pixel_size":7.4e-6,"cam_orientation":0,"l_s_c_ste_id":1,"l_s_c_cam_id":25,"l_s_c_las_id":0,"l_s_c_x":-0.22694,"l_s_c_y":0.09636,"l_s_c_z":-0.71677,"l_s_c_l1_x":-0.61774,"l_s_c_l1_y":0.78638,"l_s_c_l1_z":-0.0023814,"l_s_c_l2_x":0.78638,"l_s_c_l2_y":0.61774,"l_s_c_l2_z":-0.00074224,"l_s_c_l3_x":0.00088732,"l_s_c_l3_y":-0.0023313,"l_s_c_l3_z":-1},{"cam_id":26,"cam_id_pos":33,"cam_name":"Pike_73","cam_calibration_date":"2008-02-28","cam_serial_number":268927073,"cam_width":1920,"cam_height":1080,"cam_cppa":957.69,"cam_lppa":549.83,"cam_focal":1401.45,"cam_disto_cpps":973.52,"cam_disto_lpps":562.31,"cam_disto_r3":-4.25876e-8,"cam_disto_r5":1.89043e-14,"cam_disto_r7":5.56931e-21,"cam_pixel_size":7.4e-6,"cam_orientation":1,"l_s_c_ste_id":1,"l_s_c_cam_id":26,"l_s_c_las_id":0,"l_s_c_x":-0.14298,"l_s_c_y":0.17259,"l_s_c_z":-0.817,"l_s_c_l1_x":-0.0034575,"l_s_c_l1_y":0.99999,"l_s_c_l1_z":0.00082623,"l_s_c_l2_x":0.5658,"l_s_c_l2_y":0.0026376,"l_s_c_l2_z":-0.82455,"l_s_c_l3_x":-0.82454,"l_s_c_l3_y":-0.0023834,"l_s_c_l3_z":-0.5658},{"cam_id":27,"cam_id_pos":31,"cam_name":"Pike_69","cam_calibration_date":"2008-03-04","cam_serial_number":268927069,"cam_width":1920,"cam_height":1080,"cam_cppa":981.947,"cam_lppa":549.496,"cam_focal":1398.43,"cam_disto_cpps":976.777,"cam_disto_lpps":557.7,"cam_disto_r3":-4.53776e-8,"cam_disto_r5":3.08082e-14,"cam_disto_r7":-9.44478e-22,"cam_pixel_size":7.4e-6,"cam_orientation":1,"l_s_c_ste_id":1,"l_s_c_cam_id":27,"l_s_c_las_id":0,"l_s_c_x":-0.1443,"l_s_c_y":-0.19391,"l_s_c_z":-0.6421,"l_s_c_l1_x":0.0029961,"l_s_c_l1_y":-0.999994,"l_s_c_l1_z":-0.0019132,"l_s_c_l2_x":-0.986164,"l_s_c_l2_y":-0.0026376,"l_s_c_l2_z":-0.165781,"l_s_c_l3_x":0.165775,"l_s_c_l3_y":0.0023834,"l_s_c_l3_z":-0.986165},{"cam_id":28,"cam_id_pos":61,"cam_name":"Pike_72","cam_calibration_date":"2008-02-28","cam_serial_number":268927072,"cam_width":1920,"cam_height":1080,"cam_cppa":964.942,"cam_lppa":530.607,"cam_focal":1396.04,"cam_disto_cpps":968.358,"cam_disto_lpps":532.563,"cam_disto_r3":-4.73382e-8,"cam_disto_r5":3.21297e-14,"cam_disto_r7":-2.376e-21,"cam_pixel_size":7.4e-6,"cam_orientation":3,"l_s_c_ste_id":1,"l_s_c_cam_id":28,"l_s_c_las_id":0,"l_s_c_x":-1.846,"l_s_c_y":0.71857,"l_s_c_z":0.13336,"l_s_c_l1_x":-0.966786,"l_s_c_l1_y":-0.00076882,"l_s_c_l1_z":-0.255588,"l_s_c_l2_x":-0.000630222,"l_s_c_l2_y":1,"l_s_c_l2_z":-0.000624359,"l_s_c_l3_x":0.255588,"l_s_c_l3_y":-0.000442538,"l_s_c_l3_z":-0.966786}]
+[
+{
+"cam": "300",
+"rotation": [
+0.000735648, -0.00148884, -0.999999,
+0.999998, 0.00205265, 0.000732591,
+0.00205156, -0.999997 , 0.00149035
+],
+"position": [ -0.145711, -0.0008142, -0.867 ],
+"projection": [
+1150.66785706630299, 0, 1030.29197487242254,
+0, 1150.66785706630299, 1023.03935469545331,
+0, 0, 1
+],
+"size" : [2048, 2048],
+"distortion": {
+"pps": [
+1042.178,
+1020.435
+],
+"poly357": [
+-1.33791587603751819E-7,
+3.47540977328314388E-14,
+-4.44103985918888078E-21
+]
+},
+"orientation": 3
+},
+{
+"cam": "301",
+"mask" : "images/mask301.jpg",
+"rotation": [
+0.999983, 0.00573631 , -0.000416302 ,
+0.0057386, -0.999967, 0.00572497,
+-0.000383448, -0.00572726 , -0.999984
+],
+"position": [
+-0.0449668,
+0.0620361,
+-0.865681
+],
+"projection": [
+1134.10249915110944, 0, 1036.59553362753832,
+0, 1134.10249915110944, 1020.60367439771176,
+0, 0, 1
+],
+"size" : [2048, 2048],
+"distortion": {
+"pps": [
+1042.178,
+1020.435
+],
+"poly357": [
+-1.40358671178762456E-7,
+3.68704437301178485E-14,
+-4.70823660788942483E-21
+]
+},
+"orientation": 2
+},
+{
+"cam": "302",
+"rotation": [
+-0.000880418, -0.999989 , -0.00459435 ,
+-0.999978, 0.0008499, 0.00664034,
+-0.00663636, 0.00460009, -0.999967
+],
+"position": [
+-0.0856818,
+-0.102837,
+-0.866901
+],
+"projection": [
+1129.96581598065382, 0, 1044.51004790981142,
+0, 1129.96581598065382, 1023.12591368801895,
+0, 0, 1
+],
+"size" : [2048, 2048],
+"distortion": {
+"pps": [
+1042.178,
+1020.435
+],
+"poly357": [
+-1.43584241381542442E-7,
+3.85479524108064982E-14,
+-5.0301787584825994E-21
+]
+},
+"orientation": 2
+},
+{
+"cam": "303",
+"mask" : "images/mask303.jpg",
+"rotation": [
+-0.999997, -0.000490943 , -0.00239044, 
+-0.000499298, 0.999994, 0.00349604,
+0.00238871, 0.00349722, -0.999991
+],
+"position": [
+-0.248471,
+-0.060197,
+-0.865218
+],
+"projection": [
+1128.12363890680899, 0, 1027.81789269340265,
+0, 1128.12363890680899, 1024.17550959203095,
+0, 0, 1
+],
+"size" : [2048, 2048],
+"distortion": {
+"pps": [
+1042.178,
+1020.435
+],
+"poly357": [
+-1.43584241381542442E-7,
+3.85479524108064982E-14,
+-5.0301787584825994E-21
+]
+},
+"orientation": 2
+},
+{
+"cam": "304",
+"rotation": [
+0.00374348, 0.999988 , -0.0030323,
+0.999979, -0.00375951, -0.00529837,
+-0.0053097, -0.00301241 , -0.999981
+],
+"position": [
+-0.207387,
+0.0996596,
+-0.863219
+],
+"projection": [
+1128.70551522705205, 0, 1037.71094725878015,
+0, 1128.70551522705205, 1032.63268273716631,
+0, 0, 1
+],
+"size" : [2048, 2048],
+"distortion": {
+"pps": [
+1042.178,
+1020.435
+],
+"poly357": [
+-1.4331013261463578E-7,
+3.77792882615437153E-14,
+-4.83479389959883182E-21
+]
+},
+"orientation": 2
+}
+]
