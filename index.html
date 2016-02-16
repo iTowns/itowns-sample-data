@@ -122,9 +122,11 @@
 
                  itowns = new API({
                         dataURL: {
-                            urlMetaDataProviderPos  : "panoramicsMetaDataV2.json",
-                            urlImageFile            : "images/",
-                            urlMetaProviderSensor   : "cameraCalibrationV2.json",
+                            urlMetaDataProviderPos  : "panoramicsMetaData.json",
+                            urlImageFile            : "../itowns-sample-data-small/images/140616/Paris-140616_0740-{cam}-00001_{pano}.jpg",
+//                            urlImageFile            : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam}-00001_{pano}.jpg",
+//                            urlImageFile            : "http://www.itowns.fr/cgi-bin/iipsrv.fcgi?FIF=/iipimagesV2/140616/Paris-140616_0740-{cam}-00001_{pano}.jp2&WID=512&QLT=80&CVT=JPEG",
+                            urlMetaProviderSensor   : "cameraCalibration.json",
                             urlBuildingFootprint    : "buildingFootprint.json",
                             urlDTM                  : "dtm.json",
                             urlPointCloud           : "pointclouds/",
@@ -133,9 +135,19 @@
 
                         usingLaserCloud  : false,
                         usingStreetView  : false,
-                        usingBati3D      : false,
-                        positionInit     : {x:651182.91,y:39.6,z:6861343.03}
+                        usingBati3D      : true,
+                        positionInit     : {x:651182.91,y:39.6,z:6861343.03},
+                        laser: { offset : {x:650000,y:0,z:6860000} }
                  });
+
+				 var updatePanoramicVisible = function() {
+					var panoVisible = itowns.getPanoramicVisible();
+					$("#radioPanoramic").prop("checked", panoVisible )
+					$("#radio3DBuildings").prop("checked",!panoVisible)
+					setTimeout(updatePanoramicVisible,1000);
+				};
+				updatePanoramicVisible();
+
             }
             else {
                   console.log("checking");
@@ -146,39 +158,23 @@
         initialize();
 
         function laserPointMeasureEnable(e) {
-            //loading laser points!
             if (!$("#checkboxLaserCloud").prop("checked")) {
-                itowns.addLayer("pointCloud",itowns.dataURL);
-                //LaserCloud.setVisibility(true);
+                itowns.addLayer("pointCloud",itowns.dataURL,itowns.laser);
             } else {
                 itowns.removeLayer("pointCloud");
             }
-            /*
-            LaserCloud.btnSwitchPoint = !LaserCloud.btnSwitchPoint;
-
-            if (LaserCloud.btnSwitchLine || LaserCloud.btnSwitchVolume) {
-                LaserCloud.btnSwitchLine = false;
-                LaserCloud.btnSwitchVolume = false;
-            }
-            */
         }
 
 
-        function streetViewEnable(e) {
-
+        function PanoramicVisibility(panoVisible) {
+			$("#radioPanoramic").prop("checked", panoVisible );
+			$("#radio3DBuildings").prop("checked",!panoVisible);
+            itowns.setPanoramicVisible(panoVisible)
         }
 
-       </script>
+		</script>
 
         <div id="controls" class="controls">
-            <div class="row">
-                <div class="labelswitch">Laser cloud</div>
-                <div class="switch">
-                    <input id="checkboxLaserCloud" class="cmn-toggle cmn-toggle-round" type="checkbox">
-                    <label for="checkboxLaserCloud" onclick="laserPointMeasureEnable()"></label>
-                </div>
-            </div>
-
             <div class="help">
                 Use mouse to <strong>rotate</strong> the camera.<br />
                 Use mouse wheel to <strong>zoom in or out</strong>.<br />
@@ -186,7 +182,27 @@
                 Use mouse right click to <strong>place a point</strong>.<br />
                 Use keyboard arrows to <strong>move up and down</strong>.<br />
             </div>
-
+            <div class="row">
+                <div class="labelswitch">Laser cloud</div>
+                <div class="switch">
+                    <input id="checkboxLaserCloud" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                    <label for="checkboxLaserCloud" onclick="laserPointMeasureEnable()"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="labelswitch">Panoramic Images</div>
+                <div class="switch">
+                    <input id="radioPanoramic" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                    <label for="radioPanoramic" onclick="PanoramicVisibility(true)"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="labelswitch">3D Buildings</div>
+                <div class="switch">
+                    <input id="radio3DBuildings" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                    <label for="radio3DBuildings" onclick="PanoramicVisibility(false)"></label>
+                </div>
+            </div>
         </div>
 
     </body>
