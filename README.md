@@ -1,4 +1,4 @@
-# Sample Data
+# IGN research iTowns sample dataset
 Free sample data to use for any research purpose but originally for iTowns (https://github.com/iTowns/itowns)
 
 ### License Creative Commons
