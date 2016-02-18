@@ -1,35 +1,32 @@
 # Sample Data
 Free sample data to use for any research purpose but originally for iTowns (https://github.com/iTowns/itowns)
 
-### What is it
+### License Creative Commons
 
-    - 3D textured models  (from automatic reconstruction using Bati3D, *3DS and DAE*)
-    - Oriented images (composing panorama, *JPG*)
-    - Point Clouds    (from terrestrial lidar, *binary XYZI*)
-    - Vector Data     (metadata for images, DTM, Building footprint, *JSON*)
+The data set is available under the Creative Commons Attribution Non-Commercial No Derivatives Licence [CC-BY-NC-ND-3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/)
 
+Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France. [CC-BY-NC-ND-3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/fr)
 
-    
+### Content
+
+- 3D textured models(from automatic reconstruction using Bati3D© (IGN) : 3DS and B3D models with JPG and DDS textures
+- Oriented images (composing panoramas) : JPG images and JSON orientations
+- Point Clouds from mobile mapping lidar : binary XYZI
+- Vector Data (DTM, Building footprints) : JSON
+
 ![iTowns screenshot](http://www.itowns.fr/videos/bati3DLaser.jpg)
 
 ### CONDITIONS OF USE
-The user of this dataset must in every result he distributes:
-Provide the dataset title : "IGN Research Lab sample data: The IGN dataset of iTowns" 
+Whenever this dataset was involved, the user of this dataset must in every result he distributes, including any scientific or technical publication or any display of an image of the dataset on a digital or on an analog media :
 
-Insert an explicit reference to the IGN© copyright (including when displaying an image of the data set on a digital or on an analog media) followed by the mention that "IGN created this special set of images for the purpose of geo visualization research activities, but does not endorse the way they are used in this project or the conclusions put forward"; 
+- Provide the dataset title :
+ - "IGN research iTowns sample dataset" (en)
+ - "Données IGN fournies dans le cadre du projet iTowns" (fr)
 
-Insert a the following citation in any scientific or technical publication whenever this dataset was used to get the results:
-(english version)
-"IGN Research Lab sample data: The IGN dataset of iTowns" 
-(version française)
-"Données IGN fournies dans le cadre du projet OpenSource iTowns"
+- Insert an explicit reference to the IGN© copyright followed by the mention that "IGN created this sample dataset for the purpose of geovisualization research activities and opensource development, but does not endorse the way they are used in this project or the conclusions put forward"; 
 
 
 CONTACT INFORMATION
 
 In order to stay informed about the potential modifications of the IGN dataset of iTowns dataset, please contact mathieu.bredif@ign.fr
 
-
-The data set is available under the Creative Commons Attribution Non-Commercial No Derivatives (CC-BY-NC-ND-3.0) Licence	Licence Creative Commons
-
-Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France.
