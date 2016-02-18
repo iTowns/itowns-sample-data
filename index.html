@@ -123,9 +123,9 @@
                  itowns = new API({
                         dataURL: {
                             urlMetaDataProviderPos  : "panoramicsMetaData.json",
-                            urlImageFile            : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam}-00001_{pano}.jpg",
-//                            urlImageFile            : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam}-00001_{pano}.jpg",
-//                            urlImageFile            : "http://my.website.com/cgi-bin/iipsrv.fcgi?FIF=/path/to/140616/Paris-140616_0740-{cam}-00001_{pano}.jp2&WID=512&QLT=80&CVT=JPEG",
+                            urlImageFile            : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jpg",
+//                            urlImageFile            : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jpg",
+//                            urlImageFile            : "http://my.website.com/cgi-bin/iipsrv.fcgi?FIF=/path/to/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jp2&WID=512&QLT=80&CVT=JPEG",
                             urlMetaProviderSensor   : "cameraCalibration.json",
                             urlBuildingFootprint    : "buildingFootprint.json",
                             urlDTM                  : "dtm.json",
@@ -135,7 +135,7 @@
 
                         usingLaserCloud  : false,
                         usingStreetView  : false,
-                        usingBati3D      : true,
+                        usingBati3D      : false,
                         positionInit     : {x:651182.91,y:39.6,z:6861343.03},
                         laser: { offset : {x:650000,y:0,z:6860000} }
                  });
