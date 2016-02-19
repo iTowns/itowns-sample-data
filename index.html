@@ -121,23 +121,18 @@
             if (typeof allInitialized != 'undefined' && allInitialized) {   // Check that everything is loaded
 
                  itowns = new API({
-                        dataURL: {
-                            urlMetaDataProviderPos  : "panoramicsMetaData.json",
-                            urlImageFile            : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jpg",
-//                            urlImageFile            : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jpg",
-//                            urlImageFile            : "http://my.website.com/cgi-bin/iipsrv.fcgi?FIF=/path/to/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jp2&WID=512&QLT=80&CVT=JPEG",
-                            urlMetaProviderSensor   : "cameraCalibration.json",
-                            urlBuildingFootprint    : "buildingFootprint.json",
-                            urlDTM                  : "dtm.json",
-                            urlPointCloud           : "pointclouds/",
-                            url3DBuilding           : "Buildings3D/"
-                        },
-
-                        usingLaserCloud  : false,
-                        usingStreetView  : false,
-                        usingBati3D      : false,
-                        positionInit     : {x:651182.91,y:39.6,z:6861343.03},
-                        laser: { offset : {x:650000,y:0,z:6860000} }
+                        images : {
+//                            url : "../itowns-sample-data-small/images/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jpg",
+                            url : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jpg",
+//                            url : "http://my.website.com/cgi-bin/iipsrv.fcgi?FIF=/path/to/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jp2&WID=512&QLT=80&CVT=JPEG",
+							cam                : "cameraCalibration.json",
+							pano               : "panoramicsMetaData.json",
+							buildingFootprints : "buildingFootprint.json",
+							DTM                : "dtm.json"
+						},
+                        buildings          : { url: "Buildings3D/", visible : true},
+                        pointCloud         : { url: "pointclouds/", offset : {x:650000,y:0,z:6860000} },
+                        position           : { x:651182.91,y:39.6,z:6861343.03 }
                  });
 
 				 var updatePanoramicVisible = function() {
@@ -157,12 +152,8 @@
 
         initialize();
 
-        function laserPointMeasureEnable(e) {
-            if (!$("#checkboxLaserCloud").prop("checked")) {
-                itowns.addLayer("pointCloud",itowns.dataURL,itowns.laser);
-            } else {
-                itowns.removeLayer("pointCloud");
-            }
+        function pointCloudVisibility(e) {
+            itowns.setLayerVisibility("pointCloud",!$("#checkboxLaserCloud").prop("checked"));
         }
 
 
@@ -186,7 +177,7 @@
                 <div class="labelswitch">Laser cloud</div>
                 <div class="switch">
                     <input id="checkboxLaserCloud" class="cmn-toggle cmn-toggle-round" type="checkbox">
-                    <label for="checkboxLaserCloud" onclick="laserPointMeasureEnable()"></label>
+                    <label for="checkboxLaserCloud" onclick="pointCloudVisibility()"></label>
                 </div>
             </div>
             <div class="row">
