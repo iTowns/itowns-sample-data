@@ -1,217 +1,214 @@
 <!-- SIMPLE API DEMO   -->
 <html>
-    <head>
-        <title>iTowns TEST</title>
-        <meta charset="UTF-8">
-        <style>
-            .controls {
-                border-radius: 5px;
-                position: absolute; 
-                top: 10px; 
-                left: 10px; 
-                background: rgba(200,200,200,0.5); 
-                font-family: Arial; 
-                padding: 10px;
-                color: white;
-            }
+  <head>
+    <title>iTowns TEST</title>
+    <meta charset="UTF-8">
+    <style>
+      .controls {
+        border-radius: 5px;
+        position: absolute; 
+        top: 10px; 
+        left: 10px; 
+        background: rgba(200,200,200,0.5); 
+        font-family: Arial; 
+        padding: 10px;
+        color: white;
+      }
 
-            .row {
-                display: table-row;
-            }
+      .row {
+        display: table-row;
+      }
 
-            .row .labelswitch,
-            .row .switch {
-                display: table-cell;
-                vertical-align: middle;
-                padding: 2px;
-            }
+      .row .labelswitch,
+      .row .switch {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 2px;
+      }
 
-            *,
-            *:before,
-            *:after {
-                -webkit-box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                box-sizing: border-box;
-            }
+      *,
+      *:before,
+      *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
 
-            .cmn-toggle {
-                position: absolute;
-                margin-left: -9999px;
-                visibility: hidden;
-            }
-            .cmn-toggle + label {
-                display: block;
-                position: relative;
-                cursor: pointer;
-                outline: none;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-            }
+      .cmn-toggle {
+        position: absolute;
+        margin-left: -9999px;
+        visibility: hidden;
+      }
+      .cmn-toggle + label {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        outline: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
 
-            input.cmn-toggle-round + label {
-                padding: 2px;
-                width: 40px;
-                height: 20px;
-                background-color: #dddddd;
-                -webkit-border-radius: 20px;
-                -moz-border-radius: 20px;
-                -ms-border-radius: 20px;
-                -o-border-radius: 20px;
-                border-radius: 20px;
-            }
-            input.cmn-toggle-round + label:before, input.cmn-toggle-round + label:after {
-                display: block;
-                position: absolute;
-                top: 1px;
-                left: 1px;
-                bottom: 1px;
-                content: "";
-            }
-            input.cmn-toggle-round + label:before {
-                right: 1px;
-                background-color: #f1f1f1;
-                -webkit-border-radius: 20px;
-                -moz-border-radius: 20px;
-                -ms-border-radius: 20px;
-                -o-border-radius: 20px;
-                border-radius: 20px;
-                -webkit-transition: background 0.4s;
-                -moz-transition: background 0.4s;
-                -o-transition: background 0.4s;
-                transition: background 0.4s;
-            }
-            input.cmn-toggle-round + label:after {
-                width: 18px;
-                background-color: #fff;
-                -webkit-border-radius: 100%;
-                -moz-border-radius: 100%;
-                -ms-border-radius: 100%;
-                -o-border-radius: 100%;
-                border-radius: 100%;
-                -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-                -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-                -webkit-transition: margin 0.4s;
-                -moz-transition: margin 0.4s;
-                -o-transition: margin 0.4s;
-                transition: margin 0.4s;
-            }
-            input.cmn-toggle-round:checked + label:before {
-                background-color: #8ce196;
-            }
-            input.cmn-toggle-round:checked + label:after {
-                margin-left: 20px;
-            }
+      input.cmn-toggle-round + label {
+        padding: 2px;
+        width: 40px;
+        height: 20px;
+        background-color: #dddddd;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        border-radius: 20px;
+      }
+      input.cmn-toggle-round + label:before, input.cmn-toggle-round + label:after {
+        display: block;
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        bottom: 1px;
+        content: "";
+      }
+      input.cmn-toggle-round + label:before {
+        right: 1px;
+        background-color: #f1f1f1;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        border-radius: 20px;
+        -webkit-transition: background 0.4s;
+        -moz-transition: background 0.4s;
+        -o-transition: background 0.4s;
+        transition: background 0.4s;
+      }
+      input.cmn-toggle-round + label:after {
+        width: 18px;
+        background-color: #fff;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+        border-radius: 100%;
+        -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        -webkit-transition: margin 0.4s;
+        -moz-transition: margin 0.4s;
+        -o-transition: margin 0.4s;
+        transition: margin 0.4s;
+      }
+      input.cmn-toggle-round:checked + label:before {
+        background-color: #8ce196;
+      }
+      input.cmn-toggle-round:checked + label:after {
+        margin-left: 20px;
+      }
 
-        </style>
-    </head>
-    <body style="height: 100%;overflow: hidden;margin:0;padding:0" >
+    </style>
+  </head>
+  <body style="height: 100%;overflow: hidden;margin:0;padding:0" >
 
-      <div id="containerITOWNS" tabindex="1" ></div>
+    <div id="containerITOWNS" tabindex="1" ></div>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-      <script src="../itowns/dist/itowns.js"></script>
-      <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../itowns/dist/itowns.js"></script>
+    <script>
 
-          var itowns;
+      var itowns;
 
-          function initialize() {
-            if (typeof allInitialized != 'undefined' && allInitialized) {   // Check that everything is loaded
+      function initialize() {
+      if (typeof allInitialized != 'undefined' && allInitialized) {   // Check that everything is loaded
 
-                 itowns = new API({
-                        images : {
-                            url : "../{lod}/images/{YYMMDD}/Paris-{YYMMDD}_0740-{cam.id}-00001_{pano.id:07}.jpg",
-//                            url : "http://my.website.com/cgi-bin/iipsrv.fcgi?FIF=/path/to/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jp2&WID=512&QLT=80&CVT=JPEG",
-							cam       : "cameraCalibration.json",
-							pano      : "panoramicsMetaData.json",
-							buildings : "buildingFootprint.json",
-							DTM       : "dtm.json",
-//							lods : ['itowns-sample-data-small', 'itowns-sample-data'],
-							lod : 'itowns-sample-data-small',
-							YYMMDD : function() {
-					            var d = new Date(this.pano.date);
-								return (""+d.getUTCFullYear()).slice(-2) + ("0"+(d.getUTCMonth()+1)).slice(-2) + ("0" + d.getUTCDate()).slice(-2);
-							},
-							UTCOffset : 15,
-							seconds : function() {
-					            var d = new Date(this.pano.date);
-								return (d.getUTCHours()*60 + d.getUTCMinutes())*60+d.getUTCSeconds()-this.UTCOffset;
-							},
-							visible: true
-						},
-                        pointCloud : { 
-							offset : {x:650000,y:0,z:6860000},
-							delta : 10,
-							url : 'pointclouds/{images.YYMMDD}/{lod}/{id}.bin',
-							bitsPerAttribute : 32,
-							lods : ['LR', 'HR'],
-							id : function() { return parseInt(10*this.images.seconds()); }
-						},
-                        buildings : { url: "Buildings3D/"},
-                        position  : { x:651182.91,y:39.6,z:6861343.03 }
-                 });
+         itowns = new API({
+            images : {
+              url       : "images/{YYMMDD}/Paris-{YYMMDD}_0740-{cam.id}-00001_{pano.id:07}.jpg",
+              cam       : "cameraCalibration.json",
+              pano      : "panoramicsMetaData.json",
+              buildings : "buildingFootprint.json",
+              DTM       : "dtm.json",
+              YYMMDD : function() {
+                var d = new Date(this.pano.date);
+                return (""+d.getUTCFullYear()).slice(-2) + ("0"+(d.getUTCMonth()+1)).slice(-2) + ("0" + d.getUTCDate()).slice(-2);
+              },
+              UTCOffset : 15,
+              seconds : function() {
+                var d = new Date(this.pano.date);
+                return (d.getUTCHours()*60 + d.getUTCMinutes())*60+d.getUTCSeconds()-this.UTCOffset;
+              },
+              visible: true
+            },
+            pointCloud : { 
+              offset : {x:650000,y:0,z:6860000},
+              delta : 30,
+              url : 'pointclouds/{images.YYMMDD}/{lod}/{id}.bin',
+              bitsPerAttribute : 32,
+              lods : ['LR','HR'],
+              id : function() { return parseInt(10*this.images.seconds()); }
+            },
+            buildings : { url: "Buildings3D/"},
+            position  : { x:651182.91,y:39.6,z:6861343.03 }
+         });
 
-				 var updatePanoramicVisible = function() {
-					var panoVisible = itowns.getPanoramicVisible();
-					$("#radioPanoramic").prop("checked", panoVisible )
-					$("#radio3DBuildings").prop("checked",!panoVisible)
-					setTimeout(updatePanoramicVisible,1000);
-				};
-				updatePanoramicVisible();
-            }
-            else {
-                  console.log("checking");
-                  setTimeout(initialize, 150);
-            }
-         }
+         var updatePanoramicVisible = function() {
+          var panoVisible = itowns.getPanoramicVisible();
+          $("#radioPanoramic").prop("checked", panoVisible )
+          $("#radio3DBuildings").prop("checked",!panoVisible)
+          setTimeout(updatePanoramicVisible,1000);
+        };
+        updatePanoramicVisible();
+      }
+      else {
+          console.log("checking");
+          setTimeout(initialize, 150);
+      }
+     }
 
-        initialize();
+    initialize();
 
-        function pointCloudVisibility(e) {
-            itowns.setLayerVisibility("pointCloud",!$("#checkboxLaserCloud").prop("checked"));
-        }
+    function pointCloudVisibility(e) {
+      itowns.setLayerVisibility("pointCloud",!$("#checkboxLaserCloud").prop("checked"));
+    }
 
 
-        function PanoramicVisibility(panoVisible) {
-			$("#radioPanoramic").prop("checked", panoVisible );
-			$("#radio3DBuildings").prop("checked",!panoVisible);
-            itowns.setPanoramicVisible(panoVisible)
-        }
+    function PanoramicVisibility(panoVisible) {
+      $("#radioPanoramic").prop("checked", panoVisible );
+      $("#radio3DBuildings").prop("checked",!panoVisible);
+      itowns.setPanoramicVisible(panoVisible)
+    }
 
-		</script>
+    </script>
 
-        <div id="controls" class="controls">
-            <div class="help">
-                Use mouse to <strong>rotate</strong> the camera.<br />
-                Use mouse wheel to <strong>zoom in or out</strong>.<br />
-                Use mouse left click to <strong>move forward</strong>.<br />
-                Use mouse right click to <strong>place a point</strong>.<br />
-                Use keyboard arrows to <strong>move up and down</strong>.<br />
-            </div>
-            <div class="row">
-                <div class="labelswitch">Laser cloud</div>
-                <div class="switch">
-                    <input id="checkboxLaserCloud" class="cmn-toggle cmn-toggle-round" type="checkbox">
-                    <label for="checkboxLaserCloud" onclick="pointCloudVisibility()"></label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="labelswitch">Panoramic Images</div>
-                <div class="switch">
-                    <input id="radioPanoramic" class="cmn-toggle cmn-toggle-round" type="checkbox">
-                    <label for="radioPanoramic" onclick="PanoramicVisibility(true)"></label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="labelswitch">3D Buildings</div>
-                <div class="switch">
-                    <input id="radio3DBuildings" class="cmn-toggle cmn-toggle-round" type="checkbox">
-                    <label for="radio3DBuildings" onclick="PanoramicVisibility(false)"></label>
-                </div>
-            </div>
+    <div id="controls" class="controls">
+      <div class="help">
+        Use mouse to <strong>rotate</strong> the camera.<br />
+        Use mouse wheel to <strong>zoom in or out</strong>.<br />
+        Use mouse left click to <strong>move forward</strong>.<br />
+        Use mouse right click to <strong>place a point</strong>.<br />
+        Use keyboard arrows to <strong>move up and down</strong>.<br />
+      </div>
+      <div class="row">
+        <div class="labelswitch">Laser cloud</div>
+        <div class="switch">
+          <input id="checkboxLaserCloud" class="cmn-toggle cmn-toggle-round" type="checkbox">
+          <label for="checkboxLaserCloud" onclick="pointCloudVisibility()"></label>
         </div>
+      </div>
+      <div class="row">
+        <div class="labelswitch">Panoramic Images</div>
+        <div class="switch">
+          <input id="radioPanoramic" class="cmn-toggle cmn-toggle-round" type="checkbox">
+          <label for="radioPanoramic" onclick="PanoramicVisibility(true)"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="labelswitch">3D Buildings</div>
+        <div class="switch">
+          <input id="radio3DBuildings" class="cmn-toggle cmn-toggle-round" type="checkbox">
+          <label for="radio3DBuildings" onclick="PanoramicVisibility(false)"></label>
+        </div>
+      </div>
+    </div>
 
-    </body>
+  </body>
 </html>
