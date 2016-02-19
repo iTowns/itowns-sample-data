@@ -122,17 +122,35 @@
 
                  itowns = new API({
                         images : {
-//                            url : "../itowns-sample-data-small/images/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jpg",
-                            url : "../itowns-sample-data/images/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jpg",
+                            url : "../{lod}/images/{YYMMDD}/Paris-{YYMMDD}_0740-{cam.id}-00001_{pano.id:07}.jpg",
 //                            url : "http://my.website.com/cgi-bin/iipsrv.fcgi?FIF=/path/to/140616/Paris-140616_0740-{cam.id}-00001_{pano.id:07}.jp2&WID=512&QLT=80&CVT=JPEG",
-							cam                : "cameraCalibration.json",
-							pano               : "panoramicsMetaData.json",
-							buildingFootprints : "buildingFootprint.json",
-							DTM                : "dtm.json"
+							cam       : "cameraCalibration.json",
+							pano      : "panoramicsMetaData.json",
+							buildings : "buildingFootprint.json",
+							DTM       : "dtm.json",
+//							lods : ['itowns-sample-data-small', 'itowns-sample-data'],
+							lod : 'itowns-sample-data-small',
+							YYMMDD : function() {
+					            var d = new Date(this.pano.date);
+								return (""+d.getUTCFullYear()).slice(-2) + ("0"+(d.getUTCMonth()+1)).slice(-2) + ("0" + d.getUTCDate()).slice(-2);
+							},
+							UTCOffset : 15,
+							seconds : function() {
+					            var d = new Date(this.pano.date);
+								return (d.getUTCHours()*60 + d.getUTCMinutes())*60+d.getUTCSeconds()-this.UTCOffset;
+							},
+							visible: true
 						},
-                        buildings          : { url: "Buildings3D/", visible : true},
-                        pointCloud         : { url: "pointclouds/", offset : {x:650000,y:0,z:6860000} },
-                        position           : { x:651182.91,y:39.6,z:6861343.03 }
+                        pointCloud : { 
+							offset : {x:650000,y:0,z:6860000},
+							delta : 10,
+							url : 'pointclouds/{images.YYMMDD}/{lod}/{id}.bin',
+							bitsPerAttribute : 32,
+							lods : ['LR', 'HR'],
+							id : function() { return parseInt(10*this.images.seconds()); }
+						},
+                        buildings : { url: "Buildings3D/"},
+                        position  : { x:651182.91,y:39.6,z:6861343.03 }
                  });
 
 				 var updatePanoramicVisible = function() {
@@ -142,7 +160,6 @@
 					setTimeout(updatePanoramicVisible,1000);
 				};
 				updatePanoramicVisible();
-
             }
             else {
                   console.log("checking");
